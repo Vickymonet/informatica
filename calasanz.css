@@ -1,11 +1,16 @@
 h1{
-    color:red;
+    color:rgb(126, 162, 196);
 }
 h2{
-    color:blue;
+    color:rgba(0, 24, 77, 0.979);
 }
 /*selctor de clase*/
 .oscuro{
-    background-color: black;
+    background-color: rgb(98, 118, 161);
     color: white;
+}
+/*Selector ID*/
+#biografia{
+    background-color: rgb(129, 181, 248);
+    color:black;
 }
