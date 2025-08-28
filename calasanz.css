@@ -1,16 +1,88 @@
+header {
+background-image: url("pngtree-old-vintage-paper-background-with-scraches-picture-image_1365786.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  /Selector de Etiquetas/
 h1{
-    color:rgb(126, 162, 196);
+    color:rgb(39, 29, 17);
 }
 h2{
-    color:rgba(0, 24, 77, 0.979);
+    color:rgba(46, 32, 20, 0.979);
 }
 /*selctor de clase*/
 .oscuro{
-    background-color: rgb(98, 118, 161);
-    color: white;
+    background-color: rgb(44, 32, 21);
+    color: rgb(189, 140, 94);
 }
 /*Selector ID*/
 #biografia{
-    background-color: rgb(129, 181, 248);
-    color:black;
+    background-color:rgb(189, 140, 94) ;
+    color:rgb(65, 42, 21);
 }
+#frases {
+    background-color:rgb(189, 140, 94);
+    color:rgb(65, 42, 21);
+}
+#galeriadepersonajes {
+    background-color:rgb(189, 140, 94);
+    color:rgb(65, 42, 21);
+}
+footer {
+    background-color:rgb(189, 140, 94);
+    color:rgb(65, 42, 21) ;
+    text-align: center;
+    padding: 1rem;
+  }
+  footer a {
+    color:rgb(189, 140, 94); 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin: 0 0.5rem; 
+    font-size: 1.8rem; 
+    display: inline-block; 
+  }
+  
+  footer a:hover {
+    color: rgb(80, 42, 6);
+  }
+  #galeria .contenedor-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .tarjeta-obra {
+    background-color:rgb(189, 140, 94);
+    border: 1px solid #291a11;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(119, 60, 26, 0.233);
+    transition: transform 0.3s ease;
+  }
+  
+  .tarjeta-obra:hover {
+    transform: scale(1.02);
+  }
+  
+  .tarjeta-obra img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info-obra {
+    padding: 1rem;
+  }
+  
+  .info-obra h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    color: #8b5e3c;
+  }
+  
+  .info-obra p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+  }
